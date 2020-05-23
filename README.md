@@ -20,7 +20,7 @@ This Cloud Function requires the following environment variables:
 | STORAGE_BUCKET_NAME| The name (not path) of the Cloud Storage bucket to where the function should save each activity.|
 | BIGQUERY_TABLE | The table name where the function should save the data. E.g. `my-project.dataset.table`|
 
-## BigQuery Schema
+### BigQuery Schema
 To use the code out of the box, your BigQuery table should have the following schema:
 ```json
 [
