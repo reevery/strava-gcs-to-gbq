@@ -10,6 +10,7 @@ The function will load the  object from Cloud Storage, parse it as JSON, and tra
 into a modified structure, before loading into Google BigQuery.
 
 ##Initialisation
+
 ### Environment Variables
 
 This Cloud Function requires the following environment variables:
