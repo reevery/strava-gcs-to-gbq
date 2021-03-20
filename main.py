@@ -10,9 +10,9 @@ logger = logging.getLogger(__name__)
 
 def main(event, context=None):
     # Get bucket name and object_id from the Bucket event message.
-    bucket_name = event['attributes']['bucketId']
+    bucket_name = event['bucket']
     logger.info('Bucket ID: %s', bucket_name)
-    object_id = event['attributes']['objectId']
+    object_id = event['name']
     logger.info('Object ID: %s', object_id)
 
     # Initialise Cloud Storage.
